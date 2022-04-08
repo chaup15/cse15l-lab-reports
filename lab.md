@@ -6,15 +6,15 @@ Hello! Finally **Friday**. Hope the person reading this can get sleep over the *
 ---
 
 > List:
-- One
-- Two
-- Three
+- List
+- List
+- List
 
 `Numbered` List:
 ```
-1. Sleep
-2. sLeep
-3 List 
+1. One
+2. Two
+3. Thre 
 ```
 [My Other File](https://chaup15.github.io/cse15l-lab-reports/index.html)
 
