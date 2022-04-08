@@ -16,7 +16,6 @@ What I `want` to do:
 - sLeep
 - slEEp 
 ```
+[My Other File](https://chaup15.github.io/cse15l-lab-reports/index.html)
 
 ![My Inspiration](https://wallpaperaccess.com/full/1486245.jpg)
-
-[My Other File](https://chaup15.github.io/cse15l-lab-reports/index.html)
