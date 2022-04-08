@@ -5,16 +5,16 @@ Hello! Finally **Friday**. Hope the person reading this can get sleep over the *
 
 ---
 
-> Things to do:
-1. Work
-2. wOrk
-3. woRk ;-;
+> List:
+- One
+- Two
+- Three
 
-What I `want` to do:
+`Numbered` List:
 ```
-- Sleep
-- sLeep
-- slEEp 
+1. Sleep
+2. sLeep
+3 List 
 ```
 [My Other File](https://chaup15.github.io/cse15l-lab-reports/index.html)
 
