@@ -2,6 +2,7 @@
 # April 8, 2022
 
 Hello! Finally **Friday**. Hope the person reading this can get sleep over the *weekend* :)
+
 ---
 
 > Things to do:
