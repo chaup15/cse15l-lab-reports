@@ -1,1 +1,1 @@
-![Lab Report](/Users/chaupham/Documents/GitHub/cse15l-lab-reports/labReport.png)
+![Lab Report](labReport.png)
