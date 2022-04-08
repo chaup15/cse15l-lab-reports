@@ -1,5 +1,5 @@
-## Lab 2
-# April 8, 2022
+# Lab 2
+## April 8, 2022
 
 Hello! Finally **Friday**. Hope the person reading this can get sleep over the *weekend* :)
 
@@ -12,7 +12,9 @@ Hello! Finally **Friday**. Hope the person reading this can get sleep over the *
 
 What I `want` to do:
 ```
-- Sleep
+- ![Sleep](https://wallpaperaccess.com/full/1486245.jpg)
 - sLeep
 - slEEp 
 ```
+
+
