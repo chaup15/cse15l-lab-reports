@@ -49,6 +49,7 @@ ls -a: list files along with other hidden files
 - Another thing you can do is copying and transferring files from your computer to the remote computer. You can do this by using the `scp` command, which stands for **secure copy**.
 
 - You can first create a java file or use a preexisting java file. In the terminal of your local computer, run the command:
+
 `scp <filename>.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 [![transfer-file.png](https://i.postimg.cc/zfHM82rF/transfer-file.png)](https://postimg.cc/GBrzjQ94)
@@ -61,5 +62,10 @@ ls -a: list files along with other hidden files
 [![run-file-remotely.png](https://i.postimg.cc/TwXkGRQT/run-file-remotely.png)](https://postimg.cc/FfDbVX26)
 
 ## 5. Setting an SSH key
-- You may have noticed that you have to put in the password everytime you log in or run `scp`. To solve this tedious and frustrating 
+- You may have noticed that you have to put in the password everytime you log in or run `scp`. To overcome this repetitive process, `ssh-keygen` is the solution.
+- In the terminal of your local computer, type:
+
+`$ ssh-keygen`
+
+
 ## 6. Optimizing Remote Running
