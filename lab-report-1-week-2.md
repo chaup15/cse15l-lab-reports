@@ -25,7 +25,10 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 >Don't be scared; just type `yes` and enter. Everything will be okay. I promise. Otherwise, ask Professor Gerald or tutors for help.
 
 - Finally, enter your passcode. If you are greeted by the system like this:
+
+
 [![ieng6](https://i.postimg.cc/0yQ25Qwr/Screen-Shot-2022-04-10-at-7-31-50-AM.png)](https://postimg.cc/3dsHn39H)
+
 **CONGRATULATION!!** You have successfully connected to the server remotely. So now, let's try out some commands.
 ## 3. Running Some Commands
 - Below is an example of what some of the commands are and the outputs that running these commands will produce:
