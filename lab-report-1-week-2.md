@@ -12,9 +12,10 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 ![Lab Report](labReport.png)
 
 2. Remotely Connecting
-- In VSCode, open a terminal by going to tab `Terminal` on the top bar and click on `New Terminal`
-![VSCode Terminal](
-- 
+- In VSCode, open a terminal by going to tab `Terminal` on the top bar and click on `New Terminal`.
+![VSCode Terminal](vscodeterminal.png)
+- In the terminal, type in `$ ssh cs15lsp22zz@ieng6.ucsd.edu` (where `zz` is replaced your assigned username)
+
 4. Running Some Commands
 5. Moving files with `scp`
 6. Setting an SSH key
