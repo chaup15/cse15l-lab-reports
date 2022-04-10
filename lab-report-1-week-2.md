@@ -9,11 +9,11 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 1. Installing Visual Studio Code
 - Visit the [Visual Studio Code](https://code.visualstudio.com/) website to download and install VSCode onto the computer. 
 - Once installed and opened, the home page of VSCode should look something like the image below:
-![Lab Report](labReport.png)
+[![vscode.png](https://i.postimg.cc/90sfzVt7/vscode.png)](https://postimg.cc/QKkDn2z8))
 
 2. Remotely Connecting
 - In VSCode, open a terminal by going to tab `Terminal` on the top bar and click on `New Terminal`.
-![VSCode Terminal](vscodeterminal.png)
+[![vscodeterminal.png](https://i.postimg.cc/NFXK6504/vscodeterminal.png)](https://postimg.cc/MfWZxZVM)
 - In the terminal, type in `$ ssh cs15lsp22zz@ieng6.ucsd.edu` (where `zz` is replaced your assigned username)
 
 4. Running Some Commands
