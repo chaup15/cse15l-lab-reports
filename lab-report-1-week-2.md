@@ -15,11 +15,14 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 
 2. Remotely Connecting
 - In the terminal, type in `$ ssh cs15lsp22zz@ieng6.ucsd.edu` (where `zz` is replaced your assigned username)
-- A series of messages will pop up when logging into the account will pop up along with the question:
+- A series of messages will pop up when logging into the account for the first time along with the question:
 > `Are you sure you want to continue connecting (yes/no/[fingerprint])?`
-- Don't be afraid. Type `yes` and enter, and everything will be fine. I promise. Otherwise, ask Professor Gerald or tutors for help.
-
-4. Running Some Commands
-5. Moving files with `scp`
-6. Setting an SSH key
-7. Optimizing Remote Running
+>> Don't be scared; just type `yes` and enter. Everything will be okay. I promise. Otherwise, ask Professor Gerald or tutors for help.
+- Finally, enter your passcode. If you are greeted by the system like this:
+[![ieng6](https://i.postimg.cc/660Ykq6S/Screen-Shot-2022-04-10-at-7-16-55-AM.png)](https://postimg.cc/G94FYcyJ)
+**CONGRATULATION!!** You have successfully connected to the server remotely. So now, let's try out some commands.
+3. Running Some Commands
+- 
+4. Moving files with `scp`
+5. Setting an SSH key
+6. Optimizing Remote Running
