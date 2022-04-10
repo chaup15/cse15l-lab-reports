@@ -1,3 +1,1 @@
-Morning!
-
-**Rise** *and* **shine** people!!
+[Lab Report 1](https://chaup15.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
