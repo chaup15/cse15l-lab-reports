@@ -15,9 +15,9 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 
 2. Remotely Connecting
 - In the terminal, type in `$ ssh cs15lsp22zz@ieng6.ucsd.edu` (where `zz` is replaced your assigned username)
-- A series of message will pop up when logging into the account will pop up and ask:
+- A series of messages will pop up when logging into the account will pop up along with the question:
 > `Are you sure you want to continue connecting (yes/no/[fingerprint])?`
-- Don't be afraid. Type `yes` and enter, and everything will be fine
+- Don't be afraid. Type `yes` and enter, and everything will be fine. I promise. Otherwise, ask Professor Gerald or tutors for help.
 
 4. Running Some Commands
 5. Moving files with `scp`
