@@ -22,7 +22,7 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 
 >`Are you sure you want to continue connecting (yes/no/[fingerprint])?`
 
->Don't be scared; just type `yes` and enter. Everything will be okay. I promise. Otherwise, ask Professor Gerald or tutors for help.
+>Don't be scared; just type `yes` and enter. Everything will be okay. I promise.
 
 - Finally, enter your passcode. If you are greeted by the system like this:
 
