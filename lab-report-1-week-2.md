@@ -61,7 +61,7 @@ ls -a: list files along with other hidden files
 
 [![run-file-remotely.png](https://i.postimg.cc/TwXkGRQT/run-file-remotely.png)](https://postimg.cc/FfDbVX26)
 
-## 5. Setting an SSH key
+## 5. Setting a SSH key
 - You may have noticed that you have to put in the password everytime you log in or run `scp`. To overcome this repetitive process, `ssh-keygen` is the solution.
 - In the terminal of your local computer, type `$ ssh-keygen`. When you see `Enter file in which to save the key (/Users/<username>/.ssh/id_rsa):`, copy and paste your `/Users/<username>/.ssh/id_rsa`. Then, the next line will say `Enter passphrase (empty for no passphrase):`. Proceed to press enter without typing in anything. Press enter again when the program ask to `Enter same passphrase again:`.
 
@@ -77,7 +77,19 @@ Yay! Now you can log in without having to put in the password every time.
 - There are several ways you can speed up the process of editting, copying, and running files in the remote server.
 - One way is writing commands in quotes when running the `ssh` command to run it directly.
 - Another way is using semicolon ( ; ) to run multiple commands in one line.
-- A common and quick way to rewrite the previous code is using the up-arrow on the keyboard
+- A common and quick way to rewrite the previous code is using the up-arrow (↑) on the keyboard
 
 [![optimizing remote running](https://i.postimg.cc/7YmNzGJ4/Screen-Shot-2022-04-10-at-8-53-02-PM.png)](https://postimg.cc/4mHtk312)
-What I to optimize remote running in the image above was: editting the local file, copying the file using `scp <file> <destination>`, and combining the commands `javac WhereAmI.java; java WhereAmI` to compile and run the program in the remote server in one line.
+What I did to optimize remote running in the image above was: editting the local file, copying the file using `$ scp <file> <destination>`, and combining the commands `javac WhereAmI.java; java WhereAmI` to compile and run the program in the remote server in one line.
+
+## Summary
+Those are the 6 steps of accessing computers remotely. And here is a brief review of what we did:
+
+1. Install VSCode
+2. Connect remotely into the `ieng6` server using `ssh` command
+3. Run some of the Linux commands
+4. Copy and transfer files using `scp`
+5. Set SSH keygen so you don't have to input password everytime logging in
+6. Optimize remote running using quotations (""), semicolon ( ; ), and the up-arrow (↑)
+
+I hope you had fun with the process of remote access. Thank you for reading!
