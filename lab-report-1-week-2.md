@@ -53,9 +53,9 @@ ls -a: list files along with other hidden files
 `scp <filename>.java cs15lsp22zz@ieng6.ucsd.edu:~/`
 
 [![transfer-file.png](https://i.postimg.cc/zfHM82rF/transfer-file.png)](https://postimg.cc/GBrzjQ94)
->Again, remember to replace `zz` with your assigned username. Also, `<filename>` is replaced with the name of your file
+>Again, remember to replace `zz` with your assigned username. Also, `<filename>` is replaced with the name of your file. The example above is using `WhereAmI.java` file.
 
-- Then, log into your ieng6 account with ssh and run the command `ls`. You should be able to see the java file in the home directory.
+- Then, log into your `ieng6` account with `ssh` and run the command `ls`. You should be able to see the java file in the home directory.
 
 - The files can now be run on the ieng6 server using `javac` and `java` commands
 
@@ -69,7 +69,7 @@ ls -a: list files along with other hidden files
 [![ssh-keygen](https://i.postimg.cc/4dT00Rx1/Screen-Shot-2022-04-10-at-5-38-37-PM.png)](https://postimg.cc/Z9Vj9g39)
 >Source: screenshot taken from Lab 1 Write-up
 
-- These actions generate two keys, private and public. This is shown in file `id_rsa` and `id_rsa.pub`, respectively. You will only need the public key for later. Then, log into the `ieng6` account, and make a directory by running the command `$ mkdir .ssh`. Logout of the server by typing `exit` into the terminal *or* press Ctrl-D. Now, type in: 
+- These actions generate two keys, private and public. This is shown in file `id_rsa` and `id_rsa.pub`, respectively. You will only need to copy the public key for later. Then, log into the `ieng6` account, and make a directory by running the command `$ mkdir .ssh`. Logout of the server by typing `exit` into the terminal *or* press Ctrl-D. Now, type in: 
 `$ scp /Users/<username>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` (use the public key from earlier to replace the path after `scp` and replace `zz` with your username)
 
 [![no password](https://i.postimg.cc/zGjdD28J/Screen-Shot-2022-04-10-at-8-39-50-PM.png)](https://postimg.cc/Jss3Pqsg)
@@ -77,9 +77,9 @@ Yay! Now you can log in without having to put in the password every time.
 ## 6. Optimizing Remote Running
 - There are several ways you can speed up the process of editting, copying, and running files in the remote server.
 
-- One way is writing commands in quotes when running the `ssh` command to run it directly.
+- One method is to write commands in quotes when running the `ssh` command to run it directly.
 
-- Another way is using semicolon ( ; ) to run multiple commands in one line.
+- Another method is using semicolon ( ; ) to run multiple commands in one line.
 
 - A common and quick way to rewrite the previous code is using the up-arrow (↑) on the keyboard
 
