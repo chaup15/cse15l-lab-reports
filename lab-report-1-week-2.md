@@ -69,7 +69,7 @@ ls -a: list files along with other hidden files
 [![ssh-keygen](https://i.postimg.cc/4dT00Rx1/Screen-Shot-2022-04-10-at-5-38-37-PM.png)](https://postimg.cc/Z9Vj9g39)
 >Source: screenshot taken from Lab 1 Write-up
 
-- These actions generate two keys, private and public. This is shown in file `id_rsa` and `id_rsa.pub`, respectively. You will only need to copy the public key for later. Then, log into the `ieng6` account, and make a directory by running the command `$ mkdir .ssh`. Logout of the server by typing `exit` into the terminal *or* press Ctrl-D. Now, type in: 
+- These actions generate two keys, private and public. This is shown in file `id_rsa` and `id_rsa.pub`, respectively. You will only need to copy the public key for later. Then, log into the `ieng6` account, and make a directory by running the command `$ mkdir .ssh`. Logout of the server by typing `exit` into the terminal *or* press `Ctrl-D`. Now, type in: 
 `$ scp /Users/<username>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` (use the public key from earlier to replace the path after `scp` and replace `zz` with your username)
 
 [![no password](https://i.postimg.cc/zGjdD28J/Screen-Shot-2022-04-10-at-8-39-50-PM.png)](https://postimg.cc/Jss3Pqsg)
