@@ -7,6 +7,7 @@ Today's main topic will be about how to **access machines or computers remotely*
 So now, I will be demonstrating *6 steps* to complete this magical process:
 
 ## 1. Installing Visual Studio Code
+---
 - Visit the [Visual Studio Code](https://code.visualstudio.com/) website to download and install VSCode onto the computer. 
 
 - Once installed and opened, the home page of VSCode should look something like the image below:
@@ -16,6 +17,7 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 [![vscodeterminal.png](https://i.postimg.cc/NFXK6504/vscodeterminal.png)](https://postimg.cc/MfWZxZVM)
 
 ## 2. Remotely Connecting
+---
 - In the terminal, type in `$ ssh cs15lsp22zz@ieng6.ucsd.edu` (where `zz` is replaced your assigned username)
 
 - A series of messages will pop up when logging into the account for the first time along with the question:
@@ -30,7 +32,9 @@ So now, I will be demonstrating *6 steps* to complete this magical process:
 [![ieng6.png](https://i.postimg.cc/9QBpjc7x/ieng6.png)](https://postimg.cc/87jWRQwW)
 
 **CONGRATULATION!!** You have successfully connected to the server remotely. So now, let's try out some commands.
+
 ## 3. Running Some Commands
+---
 - Below is an example of some of the commands and the outputs that running these commands will produce:
 [![commands.png](https://i.postimg.cc/dtjdh4V3/commands.png)](https://postimg.cc/3dWW6jpQ)
 
@@ -46,6 +50,7 @@ ls -a: list files along with other hidden files
 - Now it's your time to try out some yourself !
 
 ## 4. Moving files with `scp`
+---
 - Another thing you can do is copying and transferring files from your computer to the remote computer. You can do this by using the `scp` command, which stands for **secure copy**.
 
 - You can first create a java file or use a preexisting java file. In the terminal of your local computer, run the command:
@@ -62,6 +67,7 @@ ls -a: list files along with other hidden files
 [![run-file-remotely.png](https://i.postimg.cc/TwXkGRQT/run-file-remotely.png)](https://postimg.cc/FfDbVX26)
 
 ## 5. Setting a SSH key
+---
 - You may have noticed that you have to put in the password everytime you log in or run `scp`. To overcome this repetitive process, `ssh-keygen` is the solution.
 
 - In the terminal of your local computer, type `$ ssh-keygen`. When you see `Enter file in which to save the key (/Users/<username>/.ssh/id_rsa):`, copy and paste your `/Users/<username>/.ssh/id_rsa`. Then, the next line will say `Enter passphrase (empty for no passphrase):`. Proceed to press enter without typing in anything. Press enter again when the program ask to `Enter same passphrase again:`.
@@ -74,7 +80,9 @@ ls -a: list files along with other hidden files
 
 [![no password](https://i.postimg.cc/zGjdD28J/Screen-Shot-2022-04-10-at-8-39-50-PM.png)](https://postimg.cc/Jss3Pqsg)
 Yay! Now you can log in without having to put in the password every time.
+
 ## 6. Optimizing Remote Running
+---
 - There are several ways you can speed up the process of editting, copying, and running files in the remote server.
 
 - One method is to write commands in quotes when running the `ssh` command to run it directly.
@@ -87,6 +95,7 @@ Yay! Now you can log in without having to put in the password every time.
 What I did to optimize remote running in the image above was: editting the local file, copying the file using `$ scp <file> <destination>`, and combining the commands `javac WhereAmI.java; java WhereAmI` to compile and run the program in the remote server in one line.
 
 ## Summary
+---
 Those are the 6 steps of accessing computers remotely. And here is a brief review of what we did:
 
 1. Install VSCode
