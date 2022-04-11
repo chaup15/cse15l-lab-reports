@@ -74,3 +74,10 @@ ls -a: list files along with other hidden files
 [![no password](https://i.postimg.cc/zGjdD28J/Screen-Shot-2022-04-10-at-8-39-50-PM.png)](https://postimg.cc/Jss3Pqsg)
 Yay! Now you can log in without having to put in the password every time.
 ## 6. Optimizing Remote Running
+- There are several ways you can speed up the process of editting, copying, and running files in the remote server.
+- One way is writing commands in quotes when running the `ssh` command to run it directly.
+- Another way is using semicolon ( ; ) to run multiple commands in one line.
+- A common and quick way to rewrite the previous code is using the up-arrow on the keyboard
+
+[![optimizing remote running](https://i.postimg.cc/7YmNzGJ4/Screen-Shot-2022-04-10-at-8-53-02-PM.png)](https://postimg.cc/4mHtk312)
+What I to optimize remote running in the image above was: editting the local file, copying the file using `scp <file> <destination>`, and combining the commands `javac WhereAmI.java; java WhereAmI` to compile and run the program in the remote server in one line.
