@@ -63,6 +63,7 @@ ls -a: list files along with other hidden files
 
 ## 5. Setting a SSH key
 - You may have noticed that you have to put in the password everytime you log in or run `scp`. To overcome this repetitive process, `ssh-keygen` is the solution.
+
 - In the terminal of your local computer, type `$ ssh-keygen`. When you see `Enter file in which to save the key (/Users/<username>/.ssh/id_rsa):`, copy and paste your `/Users/<username>/.ssh/id_rsa`. Then, the next line will say `Enter passphrase (empty for no passphrase):`. Proceed to press enter without typing in anything. Press enter again when the program ask to `Enter same passphrase again:`.
 
 [![ssh-keygen](https://i.postimg.cc/4dT00Rx1/Screen-Shot-2022-04-10-at-5-38-37-PM.png)](https://postimg.cc/Z9Vj9g39)
@@ -75,8 +76,11 @@ ls -a: list files along with other hidden files
 Yay! Now you can log in without having to put in the password every time.
 ## 6. Optimizing Remote Running
 - There are several ways you can speed up the process of editting, copying, and running files in the remote server.
+
 - One way is writing commands in quotes when running the `ssh` command to run it directly.
+
 - Another way is using semicolon ( ; ) to run multiple commands in one line.
+
 - A common and quick way to rewrite the previous code is using the up-arrow (↑) on the keyboard
 
 [![optimizing remote running](https://i.postimg.cc/7YmNzGJ4/Screen-Shot-2022-04-10-at-8-53-02-PM.png)](https://postimg.cc/4mHtk312)
