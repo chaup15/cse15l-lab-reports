@@ -96,4 +96,4 @@ Those are the 6 steps of accessing computers remotely. And here is a brief revie
 5. Set SSH keygen so you don't have to input password everytime logging in
 6. Optimize remote running using quotations (""), semicolon ( ; ), and the up-arrow (↑)
 
-I hope you had fun with the process of remote access. Thank you for reading!
+I hope you had fun with remote access. Thank you for reading!
