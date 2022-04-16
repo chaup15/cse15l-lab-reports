@@ -72,8 +72,7 @@ ls -a: list files along with other hidden files
 
 - In the terminal of your local computer, type `$ ssh-keygen`. When you see `Enter file in which to save the key (/Users/<username>/.ssh/id_rsa):`, copy and paste your `/Users/<username>/.ssh/id_rsa`. Then, the next line will say `Enter passphrase (empty for no passphrase):`. Proceed to press enter without typing in anything. Press enter again when the program ask to `Enter same passphrase again:`.
 
-[![ssh-keygen](https://i.postimg.cc/4dT00Rx1/Screen-Shot-2022-04-10-at-5-38-37-PM.png)](https://postimg.cc/Z9Vj9g39)
->Source: screenshot taken from Lab 1 Write-up
+[![Screen-Shot-2022-04-16-at-11-31-09-AM.png](https://i.postimg.cc/ncNv0HBx/Screen-Shot-2022-04-16-at-11-31-09-AM.png)](https://postimg.cc/rKC0p2fZ)
 
 - These actions generate two keys, private and public. This is shown in file `id_rsa` and `id_rsa.pub`, respectively. You will only need to copy the public key for later. Then, log into the `ieng6` account, and make a directory by running the command `$ mkdir .ssh`. Logout of the server by typing `exit` into the terminal *or* press `Ctrl-D`. Now, type in: 
 `$ scp /Users/<username>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys` (use the public key from earlier to replace the path after `scp` and replace `zz` with your username)
