@@ -23,4 +23,4 @@ This week's lab report is about incremental development and debugging. The main 
 [![Debugging-3.png](https://i.postimg.cc/Hx0xsnxC/Debugging-3.png)](https://postimg.cc/KkzF0ZB9)
 [Test 3 file](https://github.com/chaup15/markdown-parser/commit/a061100b146c26d9a215277dfa5147a59dba1885)
 [![3-Error.png](https://i.postimg.cc/gjwTHX6C/3-Error.png)](https://postimg.cc/ZvSHTqHH)
--The failure-inducing input has an extra `[`. The original code does not handle extra elements so the program cannot find the indices of the needed elements to produce the output. Hence, this bug causes the `OutOfMemoryError`.
+-The failure-inducing input has an extra `[`. The original code does not handle extra elements so the program cannot find the indices of the needed elements to produce the output. Hence, this bug causes the `OutOfMemoryError` symptom. To debug the code, I break the `while` loop everytime the link is missing an element since that is an incorrectly formatted link, and return what `toReturn` already has.
