@@ -25,4 +25,4 @@ This week's lab report is about incremental development and debugging. The main 
 [![Link-3-Error.png](https://i.postimg.cc/SNtqmkDt/Link-3-Error.png)](https://postimg.cc/bsb4TcXQ)
 - The failure-inducing input is similar to Link 2 in a way that there are no `()`. The original code does not handle the link that has no `()` because it is adding the elements inside the `()` to the `ArrayList<String> toReturn`. This bug causes an `IndexOutOfBoundsException` because the index value of `()` are both `-1`.  
 [![Error-Fixed.png](https://i.postimg.cc/mkBmP96T/Error-Fixed.png)](https://postimg.cc/xJpv7X2Z)
-> Hence the change is the same as the change made in Link 2. The additional `if` statements `break` the `while` loop when the `[]` and `()` don't exist. Because there are no `()` and no link, the output is an empty `ArrayList`.
+> Hence the change is the same as the change made in Link 2. The additional `if` statements `break` the `while` loop when the `[]` and `()` don't exist.
