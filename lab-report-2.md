@@ -17,7 +17,7 @@ This week's lab report is about incremental development and debugging. The main 
 [![Link-2-Error.png](https://i.postimg.cc/8c5RBpR6/Link-2-Error.png)](https://postimg.cc/G8WTb1SL)
 - This failure-inducing input is similar to the previous input where the link is inside the `[]`. This bug causes the error output symptom in the program and produce the same error as the 1st link for the output. There is a different bug in the original code where the program did not take into consideration the case where the `(` and `)` don't exist. However, the program crashed before it reaches the second bug.
 [![Error-Fixed.png](https://i.postimg.cc/mkBmP96T/Error-Fixed.png)](https://postimg.cc/xJpv7X2Z)
-> TO solve the issue, the same changes from debugging Link 1 are kept. In addition, I added `if` conditions for the `while` loop to `break` when the `openParen` and `closeParen` don't exist. 
+> To solve the issue, the same changes from debugging Link 1 are kept. In addition, I added `if` conditions for the `while` loop to `break` when the `openParen` and `closeParen` don't exist. 
 
 ## Link 3:
 ---
