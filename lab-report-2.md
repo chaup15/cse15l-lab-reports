@@ -16,7 +16,7 @@ This week's lab report is about incremental development and debugging. The main 
 - [Test 2 file](https://github.com/chaup15/markdown-parser/commit/d3f3893ebb31b90d3aff66849f2fb6e863fbe95f)
 [![Link-3-Error.png](https://i.postimg.cc/SNtqmkDt/Link-3-Error.png)](https://postimg.cc/bsb4TcXQ)
 
-- The failure-inducing input has no `()` and no link. The original code does not handle this input because the program is adding the link inside the `()` to the `ArrayList<String> toReturn`. The bug causes an `IndexOutOfBoundsException` because the index value of `()` are both `-1`. To solve the issue, an `if` condition is for the `while` loop to `break` when `openParen` doesn't exist. 
+- The failure-inducing input has no `()` and no link. The original code does not handle this input because the program is adding the link inside the `()` to the `ArrayList<String> toReturn`. The bug causes an `IndexOutOfBoundsException` because the index value of `()` are both `-1`. To solve the issue, an `if` condition is added for the `while` loop to `break` when `openParen` doesn't exist. 
 
 ## Link 3:
 ---
