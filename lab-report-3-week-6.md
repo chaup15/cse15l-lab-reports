@@ -32,7 +32,7 @@ Host ieng6
 
 [![Screen-Shot-2022-05-08-at-7-19-00-PM.png](https://i.postimg.cc/Lsj88xbR/Screen-Shot-2022-05-08-at-7-19-00-PM.png)](https://postimg.cc/HJsgS9mP)
 [Commit Link](https://github.com/chaup15/markdown-parser/commit/900200e084f4cf4477d99a1961faf6ae0e8609cc)
-- Accessing GitHub repository from `ieng6` account is now successful, so changes can be committed and pushed to origin from the remote server.
+- Accessing GitHub repository from `ieng6` account is now successful, so changes can be saved, committed, and pushed to origin from the remote server.
 
 ## Task 3: Copy whole directories with `scp -r`
 ---
