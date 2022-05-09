@@ -37,6 +37,7 @@ Host ieng6
 ## Task 3: Copy whole directories with `scp -r`
 ---
 [![Screen-Shot-2022-05-08-at-7-38-40-PM.png](https://i.postimg.cc/7Zwpvmrj/Screen-Shot-2022-05-08-at-7-38-40-PM.png)](https://postimg.cc/D8pCLQZc)
+`...`
 [![Screen-Shot-2022-05-08-at-7-47-40-PM.png](https://i.postimg.cc/k43QZYkb/Screen-Shot-2022-05-08-at-7-47-40-PM.png)](https://postimg.cc/Y4RLLR2r)
 
 - The command `scp -r . ieng6:~/markdown-parse` is used to secure copy the entire `markdown-parse` directory recursively to the `ieng6` server. This means that every single file in the directory is being copied and transfered to the remote server.
