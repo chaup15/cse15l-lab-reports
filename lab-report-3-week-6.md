@@ -2,9 +2,23 @@
 ## Task 1: Streamline `ssh` Configuration
 ---
 [![Screen-Shot-2022-05-08-at-1-46-54-PM.png](https://i.postimg.cc/QCNp5rmw/Screen-Shot-2022-05-08-at-1-46-54-PM.png)](https://postimg.cc/ftFtnp6f)
+- I used `vim` to open `.ssh/config` and added: 
+```
+Host ieng6
+    HostName ieng6.ucsd.edu
+    User cs15lsp22adj 
+```
+>Where `adj` is my assigned username and `ieng6` after `Host` is my alias. `:x` is used to save and quit the text-editor.
+
+
 [![Screen-Shot-2022-05-08-at-1-47-39-PM.png](https://i.postimg.cc/ZKcnMMZY/Screen-Shot-2022-05-08-at-1-47-39-PM.png)](https://postimg.cc/0bz96Zbh)
+- After setting up the username, I can use the command `ssh ieng6` to log into the `ieng6`.
+
 [![Screen-Shot-2022-05-08-at-1-55-17-PM.png](https://i.postimg.cc/c6qRk5NB/Screen-Shot-2022-05-08-at-1-55-17-PM.png)](https://postimg.cc/30B0d1Nk)
+- I used `scp` to copy the `WhereAmI.java` file to my `ieng6` account using only the alias rather than the long `cs15lsp22adj@ieng6.ucsd.edu` login detail.
+
 [![Screen-Shot-2022-05-08-at-1-56-07-PM.png](https://i.postimg.cc/sDvfTDnm/Screen-Shot-2022-05-08-at-1-56-07-PM.png)](https://postimg.cc/fJQhLZQS)
+- This screenshot shows that the command `scp` works even when I use only the short alias to transfer my file.
 
 ## Task 2: Setup Github Access from ieng6
 ---
