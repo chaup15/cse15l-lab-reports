@@ -2,7 +2,7 @@
 
 Hello viewer!
 
-This is week 8 and the report is about testing implementation.
+This is week 8 and the report is about testing implementations.
 
 [My Repository](https://github.com/chaup15/markdown-parser)
 
@@ -35,7 +35,10 @@ This is week 8 and the report is about testing implementation.
 ## Lab 7 Reviewed Implementation
 
 [![Screen-Shot-2022-05-22-at-11-29-57-AM.png](https://i.postimg.cc/mgpxTMH4/Screen-Shot-2022-05-22-at-11-29-57-AM.png)](https://postimg.cc/TKbN9K0N)
+- There will be a longer code change to test snippet 1. Same as to my implementation, I would add several if conditions for the location of the backticks. If the backtick is before the first `[`, then the string will be ignored by adding `continue`. If the backticks are in between the `[]`, then the link will be valid. If one backtick is after the first `[` and the other after the last `]`, the the link will be ignored. I will also have to update the index of `]` if there are multiple in order to find the last `]`. 
 
 [![Screen-Shot-2022-05-22-at-11-31-56-AM.png](https://i.postimg.cc/1t6b0jYR/Screen-Shot-2022-05-22-at-11-31-56-AM.png)](https://postimg.cc/vgYPb3sC)
+- There will be a longer code change to test snippet 2. Similar to my implementation, I will add a method to look for last `)` in order to get the entire link. However, more changes is needed to consider the link inside pair of `()` after the nested `[]`.
 
 [![Screen-Shot-2022-05-22-at-11-32-29-AM.png](https://i.postimg.cc/L52Qt61v/Screen-Shot-2022-05-22-at-11-32-29-AM.png)](https://postimg.cc/G8gjrRzs)
+- There will be a longer code change to test snippet 3. I can use the method `String.trim()` on the `link` before adding it to the `ArrayList<String> toReturn`. The program will also have to look for pairs of `()` in each line of the string to make sure the link is formatted correctly. Meaning the program needs to look for corresponding `(` and `)`.
