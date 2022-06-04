@@ -34,4 +34,9 @@ Provided output:
 VSCode Preview:
 [![Screen-Shot-2022-06-04-at-1-22-50-PM.png](https://i.postimg.cc/900G3K5s/Screen-Shot-2022-06-04-at-1-22-50-PM.png)](https://postimg.cc/YLc4YXSx)
 
-Both implementations produced the incorrect outputs. However,my implementation actually gave a link and the provided implementation's output has no link.
+Both implementations produced the incorrect outputs. However,my implementation produced an output with a link and the provided implementation's output has no link.
+[![Screen-Shot-2022-06-04-at-2-31-20-PM.png](https://i.postimg.cc/2SGSswrf/Screen-Shot-2022-06-04-at-2-31-20-PM.png)](https://postimg.cc/VJSwMXJ7)
+
+[![Screen-Shot-2022-06-04-at-2-26-24-PM.png](https://i.postimg.cc/13fGXft2/Screen-Shot-2022-06-04-at-2-26-24-PM.png)](https://postimg.cc/FYXdnF0V)
+
+I think the bug causes `closeParen == -1` for this test file in the provided implementation. There are 3 `(` and 2 `)` so the program could not find the 3rd `)` that corresponds with last `(`. Even though `openParenCount > 0`, `closeParen` now equals `markdown.length()` so the program exits the `while` loop. Since `openParenCount != 0`, the method returns `-1`, causing the program to return `toReturn` with no link. One way to debug this is to add conditions to handle `\` that interferes with not only the pairs of `()` but also the `[]`.
