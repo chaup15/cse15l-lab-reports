@@ -17,7 +17,7 @@ Provided output:
 VSCode Preview:
 [![Screen-Shot-2022-06-04-at-1-07-32-PM.png](https://i.postimg.cc/BvKk3Ppq/Screen-Shot-2022-06-04-at-1-07-32-PM.png)](https://postimg.cc/f3MBjL1F)
 
-As seen in the preview, expected output is `[\(foo\)]` so the provided implementation produced the correct output. My implementation fails to look for the last parentheses when there are multiple `)`.
+As seen in the preview, expected output is `[\(foo\)]` so the provided implementation produced the correct output. My implementation fails to look for the last parentheses when there are multiple `()`.
 
 [![Screen-Shot-2022-06-04-at-1-16-09-PM.png](https://i.postimg.cc/pdVMtJrK/Screen-Shot-2022-06-04-at-1-16-09-PM.png)](https://postimg.cc/LJWbtfzs)
 
