@@ -21,7 +21,7 @@ As seen in the preview, expected output is `[\(foo\)]` so the provided implement
 
 [![Screen-Shot-2022-06-04-at-1-16-09-PM.png](https://i.postimg.cc/pdVMtJrK/Screen-Shot-2022-06-04-at-1-16-09-PM.png)](https://postimg.cc/LJWbtfzs)
 
-Before taking the `link` between the pair of `()`, I need to add a loop to find the last `)` in case there are multiple `)`, rather than assuming there is only one `)`. This ensures that I include every characters before the outermost `)`.
+Before taking the `link` between the pair of `()`, I need to add a loop to find the last `)` in case there are multiple `()`, rather than assuming there is only one `()`. This ensures that I include every characters before the outermost `)`.
 
 ## 2. [Test-file 497](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/497.md)
 
