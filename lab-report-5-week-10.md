@@ -34,7 +34,7 @@ Provided output:
 VSCode Preview:
 [![Screen-Shot-2022-06-04-at-1-22-50-PM.png](https://i.postimg.cc/900G3K5s/Screen-Shot-2022-06-04-at-1-22-50-PM.png)](https://postimg.cc/YLc4YXSx)
 
-Both implementations produced the incorrect outputs. However, my implementation produced an output with a link while the provided implementation's output has no link.
+From the preview, it seems that the expected output is `[foo\]`. Therefore, both implementations produced the incorrect outputs. However, my implementation produced an output with a link while the provided implementation's output has no link.
 
 [![Screen-Shot-2022-06-04-at-2-31-20-PM.png](https://i.postimg.cc/2SGSswrf/Screen-Shot-2022-06-04-at-2-31-20-PM.png)](https://postimg.cc/VJSwMXJ7)
 
